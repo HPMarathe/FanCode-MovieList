@@ -1,0 +1,22 @@
+/* src/components/GenreFilter.css */
+.genre-filter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .genre-filter button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .genre-filter button:hover {
+    background-color: #777;
+  }
+  
