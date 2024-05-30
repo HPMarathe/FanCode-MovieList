@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState } from "react";
 import MovieList from "./components/MovieList";
 import GenreFilter from "./components/GenreFilter";
@@ -21,7 +20,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>MovieFix</h1>
-        {/* <GenreFilter onSelectGenre={handleSelectGenre} /> */}
+        <GenreFilter onSelectGenre={handleSelectGenre} />
       </header>
       <MovieList genres={selectedGenres} />
     </div>

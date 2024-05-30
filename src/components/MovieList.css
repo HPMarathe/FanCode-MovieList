@@ -1,9 +1,24 @@
-/* src/components/MovieList.css */
 .movie-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 10px;
+  padding-top: 100px;
+}
+
+.year-section {
+  width: 100%; /* Ensure full width on all devices */
+  margin-bottom: 20px; /* Add spacing between year sections */
+}
+
+h2 {
+  margin-top: 0; /* Remove default margin for h2 */
+}
+
+.movie-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .movie-card {
@@ -13,4 +28,15 @@
 
 .movie-card:hover {
   transform: scale(1.05);
+}
+
+/* Adjustments for smaller screens (up to 600px) */
+@media only screen and (max-width: 600px) {
+  .movie-list {
+    padding: 5px; /* Reduce padding on smaller screens */
+  }
+
+  .movie-card {
+    margin: 5px; /* Reduce margin on smaller screens */
+  }
 }

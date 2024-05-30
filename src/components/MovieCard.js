@@ -1,4 +1,3 @@
-// src/components/MovieCard.js
 import React, { useState, useEffect } from "react";
 import { fetchMovieDetails } from "../api";
 import "./MovieCard.css";
@@ -14,7 +13,7 @@ const MovieCard = ({ movie }) => {
     getMovieDetails();
   }, [movie.id]);
 
-  if (!details) return <div>Loading...</div>;
+  if (!details) return null;
 
   const genres = details.genres.map((genre) => genre.name).join(", ");
   const director = details.credits.crew.find(
