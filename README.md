@@ -43,7 +43,7 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/MovieFix.git
+git clone https://github.com/HrushiPM/MovieFix.git
 cd MovieFix
 ```
 
@@ -58,7 +58,7 @@ yarn install
 3. Running the Project
 
 ```bash
-npm run build
+npm start
 # or
-yarn build
+yarn start
 ```
